@@ -1,5 +1,7 @@
 # AWS Lambda Triggered by Events and Run with Containers
 
+https://registry.terraform.io/modules/Xerris-Terraform-Modules/event-lambda/aws/latest
+
 ## Requirements
 
 No requirements.
