@@ -1,4 +1,4 @@
-# AWS Lambda Triggered by Events and Run with Containers
+# AWS Lambda Triggered by Events and Run in Containers
 
 https://registry.terraform.io/modules/Xerris-Terraform-Modules/event-lambda/aws/latest
 
