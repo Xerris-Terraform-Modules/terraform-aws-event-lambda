@@ -2,7 +2,7 @@
 
 https://registry.terraform.io/modules/Xerris-Terraform-Modules/event-lambda/aws/latest
 
-This is a Lambda designed to be run container based code and be triggered by either S3 Events, SQS Queues, and Cloudwatch Chron Events. It includes the basic IAM permissions needed to run as well as the option to specify S3 bucket, SQS queue, DynamoDB and well as Secrets Manager ARN's to give access to.
+This is a Lambda designed to run container based lambda handlers and be triggered by either S3 Events, SQS Queues, and Cloudwatch Chron Events. It includes the basic IAM permissions needed to run as well as the option to specify S3 bucket, SQS queue, DynamoDB and well as Secrets Manager ARN's to give access to.
 
 ## Requirements
 
