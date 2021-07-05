@@ -120,3 +120,8 @@ variable "vpc_security_group_ids" {
     type        = list(string)
     description = "List of the security group ids you want the lambda to reside in."
 }
+variable "sns_arn_iam_list" {
+    default     = []
+    type        = list(string)
+    description = "List of the sns arns you want the lambda to have iam access to."
+}
