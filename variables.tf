@@ -109,6 +109,11 @@ variable "lambda_arn_iam_list" {
     type        = list(string)
     description = "List of the lambda arns you want the lambda to have iam access to. Probably will depricate, use with caution"
 }
+variable "sns_arn_iam_list" {
+    default     = []
+    type        = list(string)
+    description = "List of the sns arns you want the lambda to have iam access to."
+}
 ////////Private Networking Variables//////////////////////////////////////////////////
 variable "subnet_ids" {
     default     = null
@@ -119,9 +124,4 @@ variable "vpc_security_group_ids" {
     default     = null
     type        = list(string)
     description = "List of the security group ids you want the lambda to reside in."
-}
-variable "sns_arn_iam_list" {
-    default     = []
-    type        = list(string)
-    description = "List of the sns arns you want the lambda to have iam access to."
 }
